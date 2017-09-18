@@ -8,5 +8,5 @@ $mvn clean install
 
 ```
 cd backend
-mvn springboot:run
+$mvn spring-boot:run
 ```
