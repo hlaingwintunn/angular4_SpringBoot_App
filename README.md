@@ -10,3 +10,8 @@ $mvn clean install
 cd backend
 mvn springboot:run
 ```
+
+# 3. Features
+```
+### 1.Swagger UI for REST API Documentation
+```
