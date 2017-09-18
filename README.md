@@ -13,5 +13,5 @@ $mvn spring-boot:run
 
 # 3. Features
 ```
-### 1.Swagger UI for REST API Documentation
+1.Swagger UI for REST API Documentation
 ```
