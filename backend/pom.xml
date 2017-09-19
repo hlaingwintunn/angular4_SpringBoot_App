@@ -31,13 +31,18 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
+		
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
+		</dependency>
+
+<!-- 		<dependency>
 			<groupId>com.hlaing.ng4boot</groupId>
 			<artifactId>frontend</artifactId>
 			<version>${project.version}</version>
 			<scope>runtime</scope>
-		</dependency>
+		</dependency> -->
 
 		<!-- Swagger 2 -->
 		<dependency>
