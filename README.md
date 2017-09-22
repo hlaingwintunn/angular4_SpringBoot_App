@@ -11,7 +11,10 @@ cd backend
 $mvn spring-boot:run
 ```
 
-# 3. Features
+# 3. Using Technologies
 ```
-1.Swagger UI for REST API Documentation
+1.Angular4 + SpringBoot
+2.MongoDB
+3.Swagger UI for REST API Documentation
+4.Logging
 ```
