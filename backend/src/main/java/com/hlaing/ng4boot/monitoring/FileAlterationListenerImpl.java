@@ -1,6 +1,7 @@
 package com.hlaing.ng4boot.monitoring;
 
 import java.io.File;
+import java.util.Date;
 
 import org.apache.commons.io.monitor.FileAlterationListener;
 import org.apache.commons.io.monitor.FileAlterationObserver;
@@ -33,12 +34,22 @@ public class FileAlterationListenerImpl implements FileAlterationListener {
 
 	@Override
 	public void onFileChange(final File file) {
-		logger.info("{} was modified", file.getAbsoluteFile());		
+		logger.info("{} was modified", file.getAbsoluteFile());	
+		logger.info("1. lenght : {}", file.length());
+		logger.info("2. last Modified : {}", new Date(file.lastModified()));
+		logger.info("3. Readable : {}", file.canRead());
+		logger.info("4. Writable : {}", file.canWrite());
+		logger.info("5. Executable : {}", file.canExecute());
 	}
 
 	@Override
 	public void onFileCreate(final File file) {
 		logger.info("{} was created", file.getAbsoluteFile());		
+		logger.info("1. lenght : {}", file.length());
+		logger.info("2. last Modified : {}", new Date(file.lastModified()));
+		logger.info("3. Readable : {}", file.canRead());
+		logger.info("4. Writable : {}", file.canWrite());
+		logger.info("5. Executable : {}", file.canExecute());
 	}
 
 	@Override
