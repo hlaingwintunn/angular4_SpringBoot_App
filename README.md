@@ -1,17 +1,22 @@
-# 1. Compile
+## 1. Prerequisite
+```
+Before running the project, you must start the mongodb database server
+```
+
+## 2. Compile
 
 ```
 $mvn clean install
 ```
 
-# 2. Running
+## 3. Running
 
 ```
 cd backend
 $mvn spring-boot:run
 ```
 
-# 3. Using Technologies
+## 4. Using Technologies
 ```
 1.Angular4 + SpringBoot
 2.MongoDB
